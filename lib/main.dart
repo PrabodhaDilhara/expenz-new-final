@@ -1,3 +1,4 @@
+import 'package:expenz_new/screen/onboardingscreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -16,17 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Inter",
       ),
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            "Hello flutter",
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w300,
-            ),
-          ),
-        ),
-      ),
+      home: Onboardingscreen(),
     );
   }
 }
